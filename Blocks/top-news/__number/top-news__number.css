@@ -1,0 +1,7 @@
+.top-news__number{
+  margin: 0;
+  font-family: "Inter", Arial, sans-serif;
+  font-weight: 800;
+  font-size: 30px;
+  color: hsl(233, 8%, 79%);
+}

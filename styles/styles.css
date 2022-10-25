@@ -1,0 +1,8 @@
+/* General styles */
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
+@import url(../Blocks/link/link.css);
+@import url(../Blocks/list/list.css);
+
+/* Pages */
+@import url(../pages/home-page.css);

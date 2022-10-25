@@ -1,0 +1,19 @@
+.button{
+  margin: 0;
+  width: 185px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(5, 85%, 63%);
+  text-transform: uppercase;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 5px;
+  color: hsl(36, 100%, 99%);
+}
+
+.button:hover{
+  background-color: hsl(240, 100%, 5%) ;
+}

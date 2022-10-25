@@ -1,0 +1,41 @@
+@import url(../Blocks/page/page.css);
+@import url(../Blocks/page/__home/page__home.css);
+
+/* Header */
+@import url(../Blocks/header/header.css);
+@import url(../Blocks/logo/logo.css);
+@import url(../Blocks/header/__burger/header__burger.css);
+@import url(../Blocks/header/__menu/header__menu.css);
+@import url(../Blocks/menu/menu.css);
+@import url(../Blocks/menu/__item/menu__item.css);
+@import url(../Blocks/menu/__link/menu__link.css);
+
+/* Home */
+@import url(../Blocks/content/content.css);
+@import url(../Blocks/home/home.css);
+@import url(../Blocks/home/__news/home__news.css);
+@import url(../Blocks/content/__home/content__home.css);
+
+/* News */
+@import url(../Blocks/news/news.css);
+@import url(../Blocks/news/__image/news__image.css);
+@import url(../Blocks/title/title.css);
+@import url(../Blocks/general-new/general-new.css);
+@import url(../Blocks/paragraph/paragraph.css);
+@import url(../Blocks/news/__paragraph/news__paragraph.css);
+@import url(../Blocks/button/button.css);
+@import url(../Blocks/card/card.css);
+@import url(../Blocks/card/__title/card__title.css);
+@import url(../Blocks/articles/articles.css);
+@import url(../Blocks/articles/__item/articles__item.css);
+@import url(../Blocks/articles/__title/articles__title.css);
+@import url(../Blocks/articles/__text/articles__text.css);
+
+/* top-news */
+@import url(../Blocks/top-news/top-news.css);
+@import url(../Blocks/top-news/__image/top-news__image.css);
+@import url(../Blocks/top-news/__item/top-news__item.css);
+@import url(../Blocks/top-news/__number/top-news__number.css);
+@import url(../Blocks/top-news/__heading/top-news__heading.css);
+@import url(../Blocks/top-news/__text/top-news__text.css);
+@import url(../Blocks/top-news/__paragraph/top-news__paragraph.css);

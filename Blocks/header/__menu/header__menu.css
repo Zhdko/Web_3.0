@@ -1,0 +1,20 @@
+.header__menu {
+  max-width: 430px;
+}
+
+@media screen and (max-width: 800px){
+  .header__menu{
+    height: 100vh;
+    padding: 125px 20px 0;
+    min-width: 256px;
+    background-color: #fff;
+    position: absolute;
+    top: -150%;
+    right: 0;
+    transition: all 0.3s ease 0s;
+    overflow: auto;
+  }
+  .header__menu.active{
+    top: 0;
+  }
+}

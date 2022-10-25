@@ -1,0 +1,17 @@
+.top-news__item{
+  width: 100%;
+  display: flex;
+  gap: 25px;
+}
+
+@media screen and (max-width: 1000px) {
+  .top-news__item {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .top-news__item {
+    flex-direction: row;
+  }
+}

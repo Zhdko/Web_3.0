@@ -1,0 +1,17 @@
+.news__image{
+  width: 100%;
+  grid-area: img;
+  object-fit: cover;
+  padding-top: 41%;
+  background-image: url(../../../images/image-web-3-desktop.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (max-width: 600px){
+  .news__image{
+    background-image: url(../../../images/image-web-3-mobile.jpg);
+    padding-top: 88%;
+  }
+}

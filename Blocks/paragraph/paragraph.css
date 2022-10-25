@@ -1,0 +1,8 @@
+.paragraph{
+  width: 100%;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 15px;
+  margin: 0;
+  line-height: 1.8;
+  color: hsl(236, 13%, 42%);
+}

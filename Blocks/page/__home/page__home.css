@@ -1,0 +1,9 @@
+.page__home{
+  padding: 89px 40px 129px;
+}
+
+@media screen and (max-width: 600px) {
+  .page__home{
+    padding: 28px 16px 82px;
+  }
+}

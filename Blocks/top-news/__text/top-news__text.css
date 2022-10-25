@@ -1,0 +1,6 @@
+.top-news__text{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  justify-self: flex-end;
+}

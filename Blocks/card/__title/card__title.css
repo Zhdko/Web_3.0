@@ -1,0 +1,7 @@
+.card__title{
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 30px;
+  margin: 0;
+  font-weight: 700;
+  color: hsl(35, 77%, 62%);
+}

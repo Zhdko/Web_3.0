@@ -1,0 +1,9 @@
+.home__news{
+  padding-bottom: 72px;
+}
+
+@media screen and (max-width: 600px){
+  .home__news{
+    padding-bottom: 64px;
+  }
+}

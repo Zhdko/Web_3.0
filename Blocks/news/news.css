@@ -1,0 +1,37 @@
+ .news{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(auto-fit minmax(180px, 1fr));
+  grid-template-areas: "img img articles"
+                       "title article articles";
+  gap: 30px;
+  transition: all 0.3s ease 0s;
+}
+
+@media screen and (max-width: 1000px) {
+  .news {
+    grid-template-areas: "img img articles"
+    "title title articles"
+    "article article articles";
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .news {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "img img"
+                       "title articles"
+                       "article articles";
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .news {
+    grid-template-columns: 1fr;
+    grid-template-areas: "img"
+                       "title"
+                       "article"
+                       "articles";
+  }
+}

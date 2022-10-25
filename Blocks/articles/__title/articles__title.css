@@ -1,0 +1,12 @@
+.articles__title{
+  margin: 0 0 20px 0;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  color: hsl(36, 100%, 99%);
+  display: block;
+}
+
+.articles__title:hover{
+  color: hsl(35, 77%, 62%);
+}

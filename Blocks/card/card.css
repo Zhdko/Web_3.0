@@ -1,0 +1,14 @@
+.card{
+  width: 100%;
+  box-sizing: border-box;
+  grid-area: articles;
+  background-color: hsl(240, 100%, 5%);
+  padding: 38px 24px;
+}
+
+@media screen and (max-width: 600px) {
+  .card {
+    padding: 29px 23px;
+    margin-top: 34px;
+  }
+}
