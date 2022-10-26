@@ -13,6 +13,7 @@
 
 @media screen and (max-width: 600px) {
   .top-news {
+    gap: 35px;
     grid-template-columns: 1fr;
   }
 }

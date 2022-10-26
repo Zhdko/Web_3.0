@@ -3,12 +3,12 @@
   box-sizing: border-box;
   grid-area: articles;
   background-color: hsl(240, 100%, 5%);
-  padding: 38px 24px;
+  padding: 30px 24px 31px;
 }
 
 @media screen and (max-width: 600px) {
   .card {
     padding: 29px 23px;
-    margin-top: 34px;
+    margin-top: 45px;
   }
 }

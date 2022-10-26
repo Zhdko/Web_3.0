@@ -1,7 +1,13 @@
 .card__title{
   font-family: "Inter", Arial, sans-serif;
-  font-size: 30px;
+  font-size: 40px;
   margin: 0;
   font-weight: 700;
   color: hsl(35, 77%, 62%);
+}
+
+@media screen and (max-width: 600px) {
+  .card__title{
+    font-size: 30px;
+  }
 }

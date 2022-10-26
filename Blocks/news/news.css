@@ -5,7 +5,7 @@
   grid-template-rows: repeat(auto-fit minmax(180px, 1fr));
   grid-template-areas: "img img articles"
                        "title article articles";
-  gap: 30px;
+  gap: 29px;
   transition: all 0.3s ease 0s;
 }
 
@@ -33,5 +33,6 @@
                        "title"
                        "article"
                        "articles";
+    gap: 15px;
   }
 }
